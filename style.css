@@ -8,67 +8,104 @@
 
 
 body {
-    background-color: gray;
-    background-image: url('assets/cabin.svg');
+    background-color: slategray;
+    background-image: url('assets/background.svg');
+    background-size: cover;
+    background-blend-mode: soft-light;
 }
 /* the main container */
 
 .front-side,
 .back-side {
   width: 254px;
-  height: 441px;
+  height: 380px;
   position: relative;
   /* adjust this to space out the cards */
   margin: 20px auto;
   overflow: hidden;
   box-shadow: 2px 5px 15px 0px #17161694;
-  background-color:antiquewhite;
+  background-color:rgb(0, 0, 0);
 }
 
 /* .front-side{
 } */
 
-.name{
-  display: grid;
-  position: relative;
-  margin-left:30px;
-  padding: 10px
+img[src*='assets/low-lines.svg']{
+  position: absolute;
+  top:5px; 
+  left:30px; right:30px;
+  scale:1.3;
+  } 
 
+img[src*='assets/high-lines.svg']{
+  position:absolute;
+  right:1px; left:10px;
+  top:10px;
 }
 
-.secondary{
-  display: grid;
-  position: relative;
-  margin-left:30px;
+.line-break{
+  height: 5px;
+}
 
+
+
+h1{
+  font-family: "lores-12", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+  scale: 1.2;
+  
+    }
+
+h3{
+  font-family: "lores-12", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  }
+
+  h5{
+    font-family: "lores-12-narrow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+    line-height: 32px;
+    }
+
+.info-container{
+    color:white;
+    position:absolute;
+    left: 75px; top:213px;
+  }
+
+.text-container{
+  color: white;
+  position: absolute;
+  top: 60px; left:10px; right:10px;
+}
+
+.ghost-container{
+  position:absolute;
+  top:125px; right: 8px;
+  scale:.5;
 }
 
 .icon-container{
-
-  width:80%;
-  margin: 0 auto;
-  display:grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
+ position: absolute;
+ bottom: 58px; left: 30px;
+  width: 10%;
+  margin: 8px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
   grid-template-areas: 
-  "a b c";
+  "a"
+  "b"
+  "c";
   grid-gap: 10px;
 }
 
-/* .circle{
-  background-image: url("/assets/circle.svg");
-  grid-area: a;
-} */
-
-
-/* h3{
-  margin-bottom: 0px;
-}
-
-h5{
-  margin-top: 0px;
-  padding-top: 0px;
-} */
 
 
 /* svg styling */
@@ -76,7 +113,7 @@ h5{
 .st1{display:inline;}
 
 svg{
-  fill:purple;
+  fill:rgb(255, 255, 255);
 }
 
 #icon-fill{
@@ -86,8 +123,8 @@ svg{
 
 
 .svg-interaction:hover{
-  fill:rgb(118, 27, 237);
-  opacity: 0.5;
+  fill:rgb(255, 29, 227);
+  opacity: 1;
   animation:pulse; 
   animation-duration: 2s;
 }
