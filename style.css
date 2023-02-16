@@ -11,6 +11,14 @@
        transform: scale(1);
        margin:0 auto;
       }
+      .low-lines{
+        transform: scale(1);
+        position:relative;
+        bottom:70px;
+      
+        
+
+      }
 
        }
 
