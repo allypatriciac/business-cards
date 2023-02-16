@@ -8,9 +8,8 @@
     /* responsive mobile grid */
  @media screen and (max-width: 1200px) {
       body{
-       transform-origin: top;
        transform: scale(1.5);
-       margin:0 auto;
+       margin:5px;
       }
 
        }
