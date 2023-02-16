@@ -11,13 +11,6 @@
        transform: scale(1);
        margin:0 auto;
       }
-      .low-lines{
-        transform-origin: bottom;
-        transform: scale(1);
-        position:relative;
-        bottom: 70px;
-      }
-
        }
 
 body {
@@ -43,17 +36,8 @@ body {
 /* .front-side{
 } */
 
-img[src='assets/low-lines.svg']{
-  position: absolute;
-  top:5px; 
-  left:30px; right:30px;
-  scale:1.3;
-  } 
-
-img[src='assets/high-lines.svg']{
-  position:absolute;
-  right:1px; left:10px;
-  top:10px;
+img[src='assets/lines.svg']{
+  scale:.95;
 }
 
 .line-break{
