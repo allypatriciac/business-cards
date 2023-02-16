@@ -9,11 +9,14 @@
  @media screen and (max-width: 1200px) {
       body{
        transform-origin: top;
-       transform: scale(1.7);
+       transform: scale(1.9);
        margin:0 auto;
       }
      img[src*='assets/lowlines.svg']{
-        align-items: last baseline;
+        position: absolute;
+        left:50px; right:50px;
+        top:100px;
+
      }
        }
 
