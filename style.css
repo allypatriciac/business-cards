@@ -13,9 +13,8 @@
        margin:0 auto;
       }
      img[src*='assets/lowlines.svg']{
-        position: absolute;
-        left:50px; right:50px;
-        top:100px;
+        position: relative;
+        
 
      }
        }
