@@ -37,14 +37,14 @@ body {
 /* .front-side{
 } */
 
-img[src*='assets/low-lines.svg']{
+img[src='assets/low-lines.svg']{
   position: absolute;
   top:5px; 
   left:30px; right:30px;
   scale:1.3;
   } 
 
-img[src*='assets/high-lines.svg']{
+img[src='assets/high-lines.svg']{
   position:absolute;
   right:1px; left:10px;
   top:10px;
