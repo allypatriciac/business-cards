@@ -11,7 +11,8 @@
        transform: scale(1);
        margin:0 auto;
       }
-      img[src*='assets/low-lines.svg'] {
+      img{
+        src:'assets/low-lines.svg';
         position:absolute;
         right: 100px;
         left:100px; 
