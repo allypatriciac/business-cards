@@ -5,6 +5,14 @@
     /* border: 1px solid blue; */
 
     }
+  @media screen and (max-width: 1200px) {
+      body{
+       transform-origin: top;
+       transform: scale(1);
+       margin:0 auto;
+      }
+     
+       }
 
 body {
     background-color: slategray;
