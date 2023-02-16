@@ -11,7 +11,10 @@
        transform: scale(1);
        margin:0 auto;
       }
-     
+      img[src*='assets/lowlines.svg'] {
+        position:absolute;
+        bottom:50px
+      }
        }
 
 body {
