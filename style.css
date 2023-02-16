@@ -12,12 +12,10 @@
        margin:0 auto;
       }
       .low-lines{
+        transform-origin: bottom;
         transform: scale(1);
         position:relative;
-        bottom:70px;
-      
-        
-
+        bottom: 70px;
       }
 
        }
