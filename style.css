@@ -12,10 +12,9 @@
        margin:0 auto;
       }
       img{
-        src:url('assets/low-lines.svg');
+        src:url['assets/low-lines.svg'];
         position:absolute;
         right: 100px;
-        left:100px; 
       }
        }
 
